@@ -16,8 +16,7 @@ The project is modular, maintainable, and easy to extend for future features lik
 6. [Project Structure](#project-structure)  
 7. [API Endpoints](#api-endpoints)  
 8. [Database Schema](#database-schema)  
-9. [How the Code Works](#how-the-code-works)  
-10. [Next Steps / Extending the Project](#next-steps--extending-the-project)  
+9. [How the Code Works](#how-the-code-works)   
 
 ---
 
@@ -203,12 +202,3 @@ POST /users
 5. **Routes (`users.py`)**: API endpoints calling CRUD functions.
 
 ---
-
-## Next Steps / Extending the Project
-
-* Add authentication (JWT / OAuth2)
-* Role-based access control (admin, user)
-* Advanced filtering / search
-* Pagination & sorting for large datasets
-* Dockerize API + PostgreSQL
-* Add unit and integration tests
